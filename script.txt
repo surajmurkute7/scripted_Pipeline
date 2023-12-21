@@ -1,0 +1,14 @@
+node {
+    stage('first stage'){
+        echo 'fetching source code from github'
+    }
+    stage('second stage'){
+        echo 'this is building....phase'
+    }
+    stage('third stage'){
+        echo 'this is testing...phase'
+    }
+    stage('fourth stage'){
+        echo 'this is deploying phase'
+    }
+}
