@@ -3,7 +3,7 @@ node {
         echo 'fetching source code from github'
     }
     stage('second stage'){
-        echo 'this is building....phase'
+        build 'maven-job'
     }
     stage('third stage'){
         echo 'this is testing...phase'
