@@ -3,7 +3,7 @@ node {
         build 'Maven_Job'
     }
     stage('second stage'){
-        echo 'creating the build....'
+        echo 'creating the build..'
     }
     stage('third stage'){
         echo 'this is testing..'
