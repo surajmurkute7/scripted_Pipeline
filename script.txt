@@ -1,6 +1,6 @@
 node {
     stage('build'){
-        build 'maven_job'
+        build 'Maven_Job'
     }
     stage('second stage'){
         echo 'creating the build....'
