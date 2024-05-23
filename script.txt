@@ -1,6 +1,6 @@
 node {
-    stage('first stage'){
-        echo 'fetching source code from github'
+    stage('build'){
+        build 'maven_job'
     }
     stage('second stage'){
         echo 'creating the build....'
