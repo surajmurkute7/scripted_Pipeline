@@ -6,7 +6,7 @@ node {
         echo 'creating the build....'
     }
     stage('third stage'){
-        echo 'this is testing...phase'
+        echo 'this is testing..'
     }
     stage('fourth stage'){
         echo 'this is deploying phase'
